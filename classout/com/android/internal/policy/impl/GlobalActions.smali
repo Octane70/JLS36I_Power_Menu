@@ -927,6 +927,8 @@
     iput-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
 
     .line 239
+    move-object/from16 v0, p0
+
     iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
 
     new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$2;
@@ -938,6 +940,30 @@
     invoke-direct {v1, p0, v2, v3}, Lcom/android/internal/policy/impl/GlobalActions$2;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$11;      
+
+    const v3, 0x108061f      
+
+    const v4, 0x1040586      
+
+    move-object/from16 v0, p0
+
+    invoke-direct {v2, v0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$11;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+   invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$12;     
+
+    const v3, 0x1080620     
+
+    const v4, 0x1040587      
+
+    move-object/from16 v0, p0
+
+    invoke-direct {v2, v0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$12;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 264
     iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
