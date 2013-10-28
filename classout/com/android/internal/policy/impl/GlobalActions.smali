@@ -456,7 +456,7 @@
     return-void
 .end method
 
-.method static synthetic access$200(Lcom/android/internal/policy/impl/GlobalActions;)Landroid/content/Context;
+.method static synthetic access$500(Lcom/android/internal/policy/impl/GlobalActions;)Landroid/content/Context;
     .registers 2
     .parameter "x0"
 
